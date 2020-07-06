@@ -5,6 +5,7 @@ from scipy.signal import savgol_filter, find_peaks
 def swap(a, b):
     return b, a
 
+
 def findLines(img, vertical):
     kernel = np.ones((1, 7))
     dx, dy = 0, 1
@@ -79,11 +80,10 @@ def cutLines(img_lines_removed, img_original, verbose):
     return lines_list
 
 
-def getLineStripes(filepath, verbose):
-    img = cv2.imread(filepath, 0)
+def getLineStripes(img, verbose):
     img_original = img.copy() 
-
     img_modified = convertImage(img, verbose)
+    
     lines = cutLines(img_modified, img_original, verbose)
 
     return lines

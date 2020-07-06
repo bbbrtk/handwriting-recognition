@@ -1,0 +1,12 @@
+Zaznaczenie wyrazów 
+W wynikowym pliku k-wyrazy.png należy zaznaczyć pojedyncze wyrazy w zdjęciu oraz ponumerować linijki tekstu.
+Obraz ten powinien być jednokanałowy o wymiarach identycznych jak wczytany obrazek z zaznaczonymi wyrazami: obrazek ma zawierać wartości 0 dla punktów nie należących do żadnego wyrazu, 1 dla wyrazów z pierwszego wiersza, 2 – dla drugiego wiersza itd.
+Pojedyncze zaznaczenie powinno zawierać się wewnątrz wyrazu i ciągnąć się od jego lewej strony do prawej. Jeden wyraz to jeden zbiór sąsiadujących ze sobą pikseli.
+
+Przez “zaznaczenie” rozumie się zgrubne wskazanie punktów (niekoniecznie wszystkich!) należących do danego wyrazu. Nie chodzi tutaj o dokładne zaznaczenie wszystkich pikseli należących do wyrazu ale o zaznaczenie punktów wzdłuż niego, najlepiej od samego początku do samego końca (ale znowu – nie chodzi o wskazanie z dokładnością do 1 piksela).
+
+Poglądowy obrazek jak może wyglądać tablica z zaznaczonymi wyrazami w trzech pierwszych linijkach można znaleźć tutaj.
+
+Wykryte numery indeksów 
+W pliku k-indeksy.txt należy zapisać odczytane numery indeksów (bez żadnych dodatkowych znaków), każdy numer w osobnym wierszu (w idealnym przypadku liczba wierszy w pliku powinna być równa liczbie wierszy widocznych na obrazie).
+Odpowiedzi będą sprawdzane elastycznie, tzn. z uwzględnieniem możliwych pomyłek (np. brakujących/nadmiarowych cyfr, lub źle rozpoznanych fragmentów).

@@ -1,1 +1,0 @@
-from whitestripes import getLineStripes

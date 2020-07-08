@@ -1,0 +1,5 @@
+1. zaznaczanie slow i lini na obrazie wyjściowym
+2. tutorial jak nauczyc model
+3. uczenie modelu
+4. wykrywanie slow na stripach
+5. filtrowanie tylko tych zawierających liczby i zapis do pliku
